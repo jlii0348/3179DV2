@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     <style>
         .textbox3 {
-            border: 1px solid black;
+            border: 3px solid black;
             padding: 10px;
             margin: 20px;
             max-width: 600px;
@@ -53,14 +53,14 @@
 
         }
         .textbox {
-            border: 1px solid black;
+            border: 3px solid black;
             padding: 10px;
             margin: 20px auto;
             max-width: 600px;  
             text-align: center;
         }
         .textbox4{
-            border: 1px solid rgb(11, 1, 1);
+            border: 3px solid rgb(11, 1, 1);
             
            
           
@@ -71,7 +71,7 @@
         }
         
         #vis4 {
-        margin-right: 700px;  /* 调整you边距的大小 */
+        margin-right: 700px;  
         
 }
 
@@ -84,12 +84,12 @@
     
         .flex-container {
             display: flex;
-            justify-content: space-around; /* 调整内容向左对齐 */
+            justify-content: space-around; 
     align-items: flex-start;
-    padding-left: -450px; /* 添加左侧内边距 */
+    padding-left: -450px; 
         }
         .flex-container > div {
-    margin-right: 100px; /* 添加右侧外边距 */
+    margin-right: 100px; 
         }
     .vis4-container {
     display: flex;
@@ -98,8 +98,8 @@
 }
 
 #vis4, .textbox4 {
-    margin-right: auto;  /* 移除右边的自动外边距，使内容左对齐 */
-    /* 其他样式保持不变 */
+    margin-right: auto;  
+    
 }
     
 
@@ -122,7 +122,7 @@
     <div class="flex-container">
         <div>
             <div id="vis"></div>
-            <div class="textbox">This visualization compares the total distance flown by aircraft at airports belonging to each city in Australia from 1984 to 2020, and shows that BRISBANE airport has the longest distance flown on all routes, while ARMIDALE airport has the shortest distance flown on all routes.</div>
+            <div class="textbox">This visualization compares the <strong>total distance</strong> flown by aircraft at airports belonging to each city in Australia from 1984 to 2020, and shows that BRISBANE airport has the longest distance flown on all routes, while ARMIDALE airport has the shortest distance flown on all routes.</div>
         </div>
         <div>
             <div id="vis2"></div>
@@ -133,12 +133,12 @@
         <div>
     
             <div id="vis3"></div>
-            <div class="textbox3">The above visualization of Average Monthly Passenger Load Factor by City in 2020 shows that during the pandemic almost no one flew, after which Passenger Load Factor increased. Only a few major cities in Australia are shown in the graph.
+            <div class="textbox3">The above visualization of <strong>Average Monthly Passenger Load Factor</strong> by City in 2020 shows that during the pandemic almost no one flew, after which Passenger Load Factor increased. Only a few major cities in Australia are shown in the graph.
     </div>
     </div>
     <div class="vis4-container">
             <div id="vis4"></div>
-            <div class="textbox4">The visualization above is a heat map of Monthly Passenger Load Factor by City from 1984-2020, with lighter colors representing less Monthly Passenger Load Factor and darker colors representing more Monthly Passenger Load Factor, and with the option to select the year of interest.
+            <div class="textbox4">The visualization above is a <strong>heat map of Monthly Passenger Load Factor </strong>by City from 1984-2020, with lighter colors representing less Monthly Passenger Load Factor and darker colors representing more Monthly Passenger Load Factor, and with the option to select the year of interest.
 
     </div>
     
@@ -330,5 +330,7 @@
     </script>
 </body>
 </html>
+
+       
 
        
